@@ -7,9 +7,9 @@ import lombok.*;
 @NoArgsConstructor
 @AllArgsConstructor
 public class UsersResponseDto {
-    private String id;
+    private Integer id;
     private String name;
     private String plat;
     private String jurusan;
-    private String image;
+    private byte[] image;
 }

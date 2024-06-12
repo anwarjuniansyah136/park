@@ -1,9 +1,11 @@
 package com.barcode.barcodeapi.service;
 
-import com.barcode.barcodeapi.dto.UsersRequestDto;
+import java.util.List;
+
 import com.barcode.barcodeapi.dto.UsersResponseDto;
+import com.barcode.barcodeapi.entity.User;
 
 public interface UsersService {
-    public String createBarcode(UsersRequestDto dto);
-    public UsersResponseDto responseDto(String userId);
+    public UsersResponseDto responseDto(Integer userId);
+    public List<User> findAll();
 }

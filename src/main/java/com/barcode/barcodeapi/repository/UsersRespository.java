@@ -2,8 +2,8 @@ package com.barcode.barcodeapi.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import com.barcode.barcodeapi.entity.Users;
+import com.barcode.barcodeapi.entity.User;
 
-public interface UsersRespository extends JpaRepository<Users,String>{
+public interface UsersRespository extends JpaRepository<User,Integer>{
     
 }
